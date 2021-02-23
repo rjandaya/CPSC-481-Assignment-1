@@ -87,7 +87,7 @@ def depthFirstSearch(problem):
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
     "*** YOUR CODE HERE ***"
-    print("Breadth First Search: \n")
+    print("Depth First Search: \n")
 
     search_stack = util.Stack()
     visited_states = []
