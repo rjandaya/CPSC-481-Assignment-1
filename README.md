@@ -15,13 +15,13 @@ Download the code with implementation, open up the pacman.py file and execute th
 By running out the following commands, the pacman would be able to explore the maze with the hightlighter path. The brighter color represents the earlier path or exploration of the maze. 
 
 commands for depth-first search for solving the tinyMaze, mediumMaze and bigMaze:
-python pacman.py -l tinyMaze -p SearchAgent
-python pacman.py -l mediumMaze -p SearchAgent
-python pacman.py -l bigMaze -z .5 -p SearchAgent
+	python pacman.py -l tinyMaze -p SearchAgent
+	python pacman.py -l mediumMaze -p SearchAgent
+	python pacman.py -l bigMaze -z .5 -p SearchAgent
 
 commands for breadth-first search for solving the mediumMaze and bigMaze:
-python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
-python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
+	python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+	python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
 
 
 ## Bugs
