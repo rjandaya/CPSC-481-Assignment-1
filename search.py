@@ -107,7 +107,7 @@ def depthFirstSearch(problem):
         if problem.isGoalState(currentState):
             return legalActions
         # Goal not found
-        else:
+        elif currentState not in closedStates:
             children = problem.getSuccessors(currentState)
             closedStates.append(currentState)
             for child in children:
@@ -141,7 +141,7 @@ def breadthFirstSearch(problem):
         if problem.isGoalState(currentState):
             return legalActions
         # Goal not found
-        else:
+        elif currentState not in closedStates:
             children = problem.getSuccessors(currentState)
             closedStates.append(currentState)
             for child in children:
