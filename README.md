@@ -14,15 +14,15 @@ Download the project code, and execute the project by executing one of the comma
 ## Sample Invocation
 By executing the following commands, Pacman will be able to explore the maze with the hightlighted path.
 
-Commands for depth-first search for solving the tinyMaze, mediumMaze and bigMaze:<br />
-	python pacman.py -l tinyMaze -p SearchAgent<br />
-        python pacman.py -l mediumMaze -p SearchAgent<br />
-	python pacman.py -l bigMaze -z .5 -p SearchAgent<br />
+Commands for depth-first search for solving the tinyMaze, mediumMaze and bigMaze: <br />
+	python pacman.py -l tinyMaze -p SearchAgent <br />
+        python pacman.py -l mediumMaze -p SearchAgent <br />
+	python pacman.py -l bigMaze -z .5 -p SearchAgent <br />
 
 
-Commands for breadth-first search for solving the mediumMaze and bigMaze:<br />
-	python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs<br />
-	python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5<br />
+Commands for breadth-first search for solving the mediumMaze and bigMaze: <br />
+	python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs <br />
+	python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5 <br />
 
 
 ## Bugs
